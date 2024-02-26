@@ -1,9 +1,9 @@
-/* Nested hover in Sass */
-$text_color: #ff0000;
-$text_hover: #00ff00;
+// Define the base styles for button tags
 button {
-  color: $text_color;
+  color: #FF0000; // Text color is set to red
+  transition: color 0.3s; // Smooth transition effect for color change
   &:hover {
-    color: $text_hover;
+    color: #00FF00; // Text color changes to green when hovering over button tags
   }
+}
 }
